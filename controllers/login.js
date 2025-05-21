@@ -3,7 +3,7 @@ const path = require('path');
 const bcrypt = require("bcryptjs");
 const cookie_parser = require("cookie-parser");
 const register = require('../models/accountschema');
-var arr=[];
+var arr=[]; // array to store logged in users
 
 async function getlogin(req, res) {
   return res.sendFile(path.join(__dirname, "../public/login.html"));

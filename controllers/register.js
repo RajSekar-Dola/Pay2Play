@@ -8,7 +8,7 @@ async function getregister(req, res) {
 async function postregister(req, res) {
   try {var userrole='user'
     const { email, username, password, confirm_pass } = req.body;
-
+    // hash the password
     const hash_pswd = await bcrypt.hash(password, 10);
 
     const exists = await register.findOne({ username });

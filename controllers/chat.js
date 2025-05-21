@@ -13,6 +13,7 @@ const Message = require("../models/messageschema");
   //typically used for invidual chat b/w two users
   async function getchat (req, res){
     res.sendFile(chatpath);
+
   }
 async function postsend(req, res){
     try {
