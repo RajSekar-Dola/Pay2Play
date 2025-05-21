@@ -25,12 +25,12 @@ To set up and run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/RajSekar-Dola/Digital-Gaming-Market-Place.git
+    git clone https://github.com/RajSekar-Dola/Pay2Play.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd P2P_FINAL
+    cd Pay2Play
     ```
 
 3. Install the necessary dependencies:
