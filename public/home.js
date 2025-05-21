@@ -239,7 +239,7 @@ var category_genres = [
   },
 ];
 
-
+// new releases 
 var new_releases = [
   {
     name: "Final Fantasy VII Rebirth",

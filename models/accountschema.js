@@ -1,3 +1,5 @@
+// This is the schema for the user account details
+
 const mongoose=require( 'mongoose');
 const fs = require('fs');
 const login_schema = new mongoose.Schema({
