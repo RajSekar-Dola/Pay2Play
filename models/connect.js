@@ -1,3 +1,5 @@
+// Connect model
+
 const mongoose = require("mongoose");
 mongoose.set("strictQuery",true);
 async function connecttomongodb(url){

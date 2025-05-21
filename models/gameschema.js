@@ -1,5 +1,5 @@
 // defining the schema for the game details
-
+// code schema
 const mongoose=require( 'mongoose');
 const search_schema = new mongoose.Schema({
     game_name: {
