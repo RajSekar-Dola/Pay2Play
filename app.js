@@ -178,7 +178,7 @@ app.post("/msg", async (req, res) => {
 });
 
 
-
+// this is used to show the user who had messaged in the past
 app.get("/userChat", async (req, res) => {
   try {
     const contacts = new Set(); 
@@ -205,7 +205,7 @@ app.get("/userChat", async (req, res) => {
   }
 });
 
-
+// post request to add a game to the cart
 app.post("/cart-purschase", async (req, res) => {
   try {
     const username = await req.cookies.username;
