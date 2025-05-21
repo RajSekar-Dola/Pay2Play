@@ -4,6 +4,10 @@ const register = require('../models/accountschema');
 const cookie_parser = require("cookie-parser");
 const app= express();
 app.use(cookie_parser);
+// app.use(express.json());
+//         return res.status(200).json({ message: "Account Deleted Successfully !" });
+//       }
+//     }
 app.set('view  engine','ejs');
 async function def(req, res) {
     
