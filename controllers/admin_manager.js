@@ -25,6 +25,8 @@ async function getLoginDet(req, res) {
   res.send(x);
 }
 
+// this function is used to get all the registered users
+// it will return the username of all the registered users
 async function getRegDet(req, res) {
   try {
     const y = await register.find({}, { username: 1 });
@@ -69,7 +71,7 @@ async function delAcc(req, res) {
   }
 }
 
-
+// this function is used to update the password of a user
 async function updatepassword(req, res) {
   const { usernametoupdate, newpassword } = req.body;
   try {
