@@ -8,6 +8,7 @@ const adminpath=path.join(__dirname, "../public/admin.ejs")
 const managerpath=path.join(__dirname, "../public/manager.ejs")
 app.set('view  engine','ejs');
 
+//used to fetch admin page
 async function getadmin(req, res) {      
   return res.sendFile(adminpath);   
 }
