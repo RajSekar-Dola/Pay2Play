@@ -15,6 +15,7 @@ async function getadmin(req, res) {
   return res.sendFile(adminpath);   
 }
 
+// we can get manager file using this endpoint
 async function getmanager(req, res) {
   return res.sendFile(managerpath);
 }
